@@ -32,28 +32,71 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./assets/css?javascript.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Cheat Sheet</title>
 </head>
-    <body>
+<body>
+  <div class="container-fluid">
+    <h2>JavaScript</h2>
+      <div class="row">
+        <div class="col-2">
+          <nav id="navbar-example3" class="navbar navbar-light bg-dark flex-column align-items-stretch p-3">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <nav class="nav nav-pills flex-column">
+              <li class="dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">CSS</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">asds</a></li>
+                  <li><a href="#">asds</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">JavaScript</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">asds</a></li>
+                  <li><a href="#">asds</a></li>
+                  <li><hr class="dropdown-divider"></li>
+              </ul>
+              </li>
+            <div class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">hj</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">            
+                  <li><a href="#">asds</a></li>
+                  <li class="divider"></li>
+                </ul>
+            </div>   
+            </nav>
+          </nav>
+        </div>
 
-        <div class="container">
-            <h2>JavaScript</h2>
-            <p>pop() Remove last element from an array</p>
+      <div class= "col-1">
+            <p>pop()</p>
+      </div>
+      <div class= "col-5">
+            <p>Remove last element from an array</p>
+      </div>
+      <div class="col-4">
             <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#pop">Example</button>
             <div id="pop" class="collapse">
-                Place Example Here
+              Place Example Here
             </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-5">
-              nav
+      </div>
+
+      <div class= "col-1">
+            <p>splice()</p>
+      </div>
+      <div class= "col-5">
+            <p>content</p>
+      </div>
+      <div class="col-4">
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#pop">Example</button>
+            <div id="pop" class="collapse">
+              Place Example Here
             </div>
-            <div class="col-7">
-              content
-            </div>
-          </div>
-        <script type="text/javascript" src="./assets/js/script.js"></script>
-    </body>
+      </div>
+      </div>
+  </div>
+<script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
 </html>
