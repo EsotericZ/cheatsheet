@@ -42,9 +42,10 @@
   <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
     <div class="position-sticky">
       <div class="list-group list-group-flush mx-3 mt-4">
+        <a class="navbar-brand" href=""><img src=".\assets\images\kcp.png" class="img-fluid" id="image" alt="KCP"></a>
         <!-- Collapse 1 -->
         <a class="list-group-item list-group-item-action py-2 ripple" aria-current="true" data-mdb-toggle="collapse" href="#collapseCSS" aria-expanded="true" aria-controls="collapseCSS">
-          <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>CSS</span>
+          <i class="fas fa-hashtag fa-fw me-3"></i><span>CSS</span>
         </a>
         <ul id="collapseCSS" class="collapse list-group list-group-flush">
           <li class="list-group-item py-1">
@@ -63,7 +64,7 @@
 
         <!-- JAVASCRIPT DROPDOWN -->
         <a class="list-group-item list-group-item-action py-2 ripple" aria-current="true" data-mdb-toggle="collapse" href="#collapseJS" aria-expanded="true" aria-controls="collapseJS">
-          <i class="fas fa-chart-area fa-fw me-3"></i><span>JavaScript</span>
+          <i class="fab fa-js-square fa-fw me-3"></i><span>JavaScript</span>
         </a>
         <ul id="collapseJS" class="collapse list-group list-group-flush">
           <li class="list-group-item py-1">
@@ -79,57 +80,47 @@
             <a href="" class="text-reset">Link</a>
           </li>
         </ul>
+
+        <!-- CONTACT DROPDOWN -->
+        <a class="list-group-item list-group-item-action py-2 ripple" aria-current="true" data-mdb-toggle="collapse" href="#collapseC" aria-expanded="true" aria-controls="collapseC">
+          <i class="fab fa-github fa-fw me-3"></i><span>Contact</span>
+        </a>
+        <ul id="collapseC" class="collapse list-group list-group-flush">
+          <li class="list-group-item py-1">
+            <a href="https://github.com/kirtleyadams" target="_blank" class="text-reset">Kirtley Adams</a>
+          </li>
+          <li class="list-group-item py-1">
+            <a href="https://github.com/EsotericZ" target="_blank" class="text-reset">CJ Sanders</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </nav>
-
-  <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"> CHEATSHEET </a>
   </nav>
 </header>
 <!-- END NAVIGATION NEEDED ON EVERY PAGE -->
-<!-- 
-      <div class= "col-1">
-            <p>pop()</p>
-      </div>
-      <div class= "col-5">
-            <p>Remove last element from an array</p>
-      </div>
-      <div class="col-4">
-            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#pop">Example</button>
-            <div id="pop" class="collapse">
-              Place Example Here
-            </div>
-      </div> -->
 <body>
   <main style="margin-top: 58px;">
-  <div class="container pt-4"></div>
+  <div class="container pt-4">
+    <div>
+      <a id="name">Pop()</a>
+      <a class="description ">Remove last element from an array</a>
+      <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse1" aria-expanded="true" aria-controls="collapse1"><span>Example</span></a>
+        <div id="collapse1" class="collapse">Place Example Here  nkljklnkl hjg k gyfgy lkmk hughvfg jklhghj jklhjg ghfgd nkjnhjk</div>
+  </div>
+      <div>
+          <a id="name">kirtleymichelle()</a>
+          <a class="description">mkllhjhfgdghbnm,nhdsjvdsdsgkjv jfkldsajfkld nvc,mnkndskcnxikl nmdsj cxioklnmfcdsxjivdnsjkvncjxzvzbfdbvcvdscx</a>
+          <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse2" aria-expanded="true" aria-controls="collapse2"><span>Example</span></a>
+        <div id="collapse2" class="collapse">Place Example Here  nkljklnkl hjg k gyfgy lkmk hughvfg jklhghj jklhjg ghfgd nkjnhjk</div>
+      </div>    
+  </div>
 </main>
-  <div class= "container-fluid">
-    <div class="row">
-      <div class="col-10 justify-content-end">
-          <a>Pop()</a>
-          <a>Remove last element from an array</a>
-          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#pop">Example</button>
-            <div id="pop" class="collapse">
-              Place Example Here
-            </div>
-      </div>
-      <div class="col-10">
-          <a>Pop()</a>
-          <a>Remove last element from an array</a>
-          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#pop">Example</button>
-            <div id="pop" class="collapse">
-              Place Example Here
-            </div>
-      </div>
+
+
     </div>
   </div>
 
-
-
-
 <script type="text/javascript" src="./assets/js/script.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
 </body>
 </html>
