@@ -21,7 +21,7 @@ body {
   
 @media (max-width: 991.98px) {
   .sidebar {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -83,4 +83,15 @@ h4 {
 a:hover {
   color: white;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 993px) {
+#sidebarMenu {
+  width: 10%;
+  position: fixed;
+}
+#collapse1, #collapse2, #collapse3, #collapse4, #collapse5, #collapse6, #collapse7, #collapse8, #collapse9, #collapse10, #collapse11, #collapse12, #collapse13, #collapse14, #collapse15, #collapse16 {
+  padding: 3px;
+  width: 75%;
+}
 }
