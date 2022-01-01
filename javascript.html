@@ -79,65 +79,60 @@
           <a class="description ">Remove last element from an array</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse1" aria-expanded="true" aria-controls="collapse1"><span>Example</span></a>
             <pre id="collapse1" class="collapse">
-              let array = ['Kitley', 'Wants', 'Better', 'Icecream'];
-              array.pop();
-              array;
-                ['Kitley', 'Wants', 'Better']</pre>
+let array = ['Kitley', 'Wants', 'Better', 'Icecream'];
+array.pop();
+array;
+  ['Kitley', 'Wants', 'Better']</pre>
         </div>
         <div>
           <a id="name">push()</a>
           <a class="description">Add a new element to the end of an array</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse2" aria-expanded="true" aria-controls="collapse2"><span>Example</span></a>
             <pre id="collapse2" class="collapse">
-              let array = ['Kitley', 'Says', 'This', 'Sucks'];
-              array.pop('Hard');
-              array;
-                ['Kitley', 'Says', 'This', 'Sucks', 'Hard']
-            </pre>
+let array = ['Kitley', 'Says', 'This', 'Sucks'];
+array.pop('Hard');
+array;
+  ['Kitley', 'Says', 'This', 'Sucks', 'Hard']</pre>
         </div>
         <div>
           <a id="name">shift()</a>
           <a class="description">Removes the first element of an array</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse3" aria-expanded="true" aria-controls="collapse3"><span>Example</span></a>
             <pre id="collapse3" class="collapse">
-              let array = ['Kitley', 'Knits', 'Cute', 'Socks'];
-              array.shift();
-              array;
-                ['Knits', 'Cute', 'Socks']
-            </pre>
+let array = ['Kitley', 'Knits', 'Cute', 'Socks'];
+array.shift();
+array;
+  ['Knits', 'Cute', 'Socks']</pre>
         </div>
         <div>
           <a id="name">unshift()</a>
           <a class="description">Add a new element to the beginning of an array</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse4" aria-expanded="true" aria-controls="collapse4"><span>Example</span></a>
             <pre id="collapse4" class="collapse">
-              let array = ['Kitley', 'Owns', 'This', 'House'];
-              array.unshift('Captain');
-              array;
-                ['Captain', 'Kirtley', 'Owns', 'This', 'House']
-            </pre>
+let array = ['Kitley', 'Owns', 'This', 'House'];
+array.unshift('Captain');
+array;
+  ['Captain', 'Kirtley', 'Owns', 'This', 'House']</pre>
         </div>
         <div>
           <a id="name">split()</a>
           <a class="description">Creates a new array from a string divided by a specified value</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse5" aria-expanded="true" aria-controls="collapse5"><span>Example</span></a>
           <pre id="collapse5" class="collapse">
-            let truth = 'Kitley Loves Puppy Cuddles';
-            let array = truth.split(" ");
-            array;
-              ['Kirtley', 'Loves', 'Puppy', 'Cuddles']
-          </pre>
+let truth = 'Kitley Loves Puppy Cuddles';
+let array = truth.split(" ");
+array;
+  ['Kirtley', 'Loves', 'Puppy', 'Cuddles']</pre>
         </div>
         <div>
           <a id="name">join()</a>
           <a class="description">Combine all elements in an array and return a string</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse6" aria-expanded="true" aria-controls="collapse6"><span>Example</span></a>
             <pre id="collapse6" class="collapse">
-              let array = ['Kitley', 'Wants', 'All', 'The', 'Food'];
-              array.join(" ");
-              array;
-                'Kirtley Wants All The Food'
-            </pre>
+let array = ['Kitley', 'Wants', 'All', 'The', 'Food'];
+array.join(" ");
+array;
+  'Kirtley Wants All The Food'</pre>
         </div>
         <div>
           <a id="name">toString()</a>
@@ -149,7 +144,12 @@
           <a id="name">concat()</a>
           <a class="description">Join multiple arrays into one</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse8" aria-expanded="true" aria-controls="collapse8"><span>Example</span></a>
-            <div id="collapse8" class="collapse">Place Example Here</div>
+            <pre id="collapse8" class="collapse">
+let array1 = ['Kitley', 'Is', 'Amazing'];
+let array2 = ['She', 'Is', 'Loved', 'By', 'All'];
+let array3 = array1.concat(array2);
+array3;
+  ['Kitley', 'Is', 'Amazing', 'She', 'Is', 'Loved', 'By', 'All']</pre>
         </div>
       </div>
       <div id="sort"><h4>Sorting an Array</h4>
@@ -158,17 +158,20 @@
           <a class="description ">Reverse the order of all elements in an arrays</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse9" aria-expanded="true" aria-controls="collapse9"><span>Example</span></a>
             <pre id="collapse9" class="collapse">
-              let array = ['Kitley', 'Will', 'Eat', 'Godzilla'];
-              array.reverse();
-              array;
-                ['Godzilla', 'Eat', 'Will', 'Kirtley']
-            </pre>
+let array = ['Kitley', 'Will', 'Eat', 'Godzilla'];
+array.reverse();
+array;
+  ['Godzilla', 'Eat', 'Will', 'Kirtley']</pre>
         </div>
         <div>
           <a id="name">sort()</a>
           <a class="description">Sorts all elements in an array alphabetically</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse10" aria-expanded="true" aria-controls="collapse10"><span>Example</span></a>
-            <div id="collapse10" class="collapse">Place Example Here</div>
+            <pre id="collapse10" class="collapse">
+let array = ['Kitley', 'Favorite', 'Animal', 'Is', 'Sloths'];
+array.sort();
+array;
+  ['Animal', 'Favorite', 'Is', 'Kitley', 'Sloths']</pre>
         </div>
       </div>
       <div id="position"><h4>Positioning of Elements in an Array</h4>
