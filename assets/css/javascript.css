@@ -69,7 +69,8 @@ body {
   margin-left: 27px;
   margin-top: 3px;
   margin-bottom: 3px;
-  padding: 10px;
+  /* padding: 10px; */
+  padding-left: 14%;
 }
 
 h4 {
