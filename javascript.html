@@ -10,12 +10,11 @@
 
 <!-- SIDEBAR NAVIGATION USE THIS ON ALL PAGES -->
 <header>
-  <!-- CSS DROPDOWN -->
   <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
     <div class="position-sticky">
       <div class="list-group list-group-flush mx-3 mt-4">
         <a class="navbar-brand" href=""><img src=".\assets\images\kcp.png" class="img-fluid" id="image" alt="KCP"></a>
-        <!-- Collapse 1 -->
+        <!-- CSS DROPDOWN -->
         <a class="list-group-item list-group-item-action py-2 ripple" aria-current="true" data-mdb-toggle="collapse" href="#collapseCSS" aria-expanded="true" aria-controls="collapseCSS">
           <i class="fas fa-hashtag fa-fw me-3"></i><span>CSS</span>
         </a>
@@ -79,19 +78,34 @@
           <a id="name">pop()</a>
           <a class="description ">Remove last element from an array</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse1" aria-expanded="true" aria-controls="collapse1"><span>Example</span></a>
-            <div id="collapse1" class="collapse">Place Example Here</div>
+            <pre id="collapse1" class="collapse">
+              let array = ['Kitley', 'Says', 'This', 'Sucks'];
+              array.pop();
+              array;
+                ['Kitley', 'Says', 'This']
+            </pre>
         </div>
         <div>
           <a id="name">push()</a>
           <a class="description">Add a new element to the end of an array</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse2" aria-expanded="true" aria-controls="collapse2"><span>Example</span></a>
-            <div id="collapse2" class="collapse">Place Example Here</div>
+            <pre id="collapse2" class="collapse">
+              let array = ['Kitley', 'Says', 'This', 'Sucks'];
+              array.pop('Hard');
+              array;
+                ['Kitley', 'Says', 'This', 'Sucks', 'Hard']
+            </pre>
         </div>
         <div>
           <a id="name">shift()</a>
-          <a class="description">Add a new element to the end of an array</a>
+          <a class="description">Removes the first element of an array</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse3" aria-expanded="true" aria-controls="collapse3"><span>Example</span></a>
-            <div id="collapse3" class="collapse">Place Example Here</div>
+            <pre id="collapse3" class="collapse">
+              let array = ['Kitley', 'Says', 'This', 'Sucks'];
+              array.shift();
+              array;
+                ['Says', 'This', 'Sucks']
+            </pre>
         </div>
         <div>
           <a id="name">unshift()</a>
