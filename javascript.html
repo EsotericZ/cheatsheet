@@ -44,13 +44,13 @@
             <a href="#loops" class="text-reset">Loops</a>
           </li>
           <li class="list-group-item py-1">
-            <a href="#methods" class="text-reset">Methods</a>
+            <a href="#amethods" class="text-reset">Array Methods</a>
           </li>
           <li class="list-group-item py-1">
             <a href="#position" class="text-reset">ADD</a>
           </li>
           <li class="list-group-item py-1">
-            <a href="#unknown" class="text-reset">ADD</a>
+            <a href="#arrow" class="text-reset">Arrow Function</a>
           </li>
         </ul>
 
@@ -75,17 +75,26 @@
 <body>
   <main style="margin-top: 58px;">
     <div class="container pt-4">
+
+      <!-- LOOPS -->
       <div id="loops"><h4>Loops</h4>
         <div>
           <a id="name">for</a>
-          <a class="description">Add Description</a>
+          <a class="description">Most commonly used loop in JavaScript</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse51" aria-expanded="true" aria-controls="collapse51"><span>Example</span></a>
             <pre id="collapse51" class="collapse">
-Add Me</pre>
+let theBest = ['Kirtley', 'Captain', 'Hero'];
+for (let i = 0; i < theBest.length; i++) {
+  console.log(theBest[i]);
+};
+             
+// Kirtley
+// Captain
+// Hero</pre>
         </div>
         <div>
           <a id="name">while</a>
-          <a class="description">Add Description</a>
+          <a class="description">Sets conditions in which a loop will execute</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse52" aria-expanded="true" aria-controls="collapse52"><span>Example</span></a>
             <pre id="collapse52" class="collapse">
 let count = 0;
@@ -100,7 +109,7 @@ while (count < 5) {
         </div>
         <div>
           <a id="name">do while</a>
-          <a class="description">Add Description</a>
+          <a class="description">Similar to while loop - Will execute at least one time and checks to see if conditions are met to execute again or exit</a>
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse53" aria-expanded="true" aria-controls="collapse53"><span>Example</span></a>
             <pre id="collapse53" class="collapse">
 let count = 0;
@@ -115,7 +124,7 @@ do {
         </div>
         <div>
           <a id="name">forEach</a>
-          <a class="description">Add Description</a>
+          <a class="description">For loop that will execute for every element in an array</a> 
           <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse54" aria-expanded="true" aria-controls="collapse54"><span>Example</span></a>
             <pre id="collapse54" class="collapse">
 let theBest = ['Kirtley', 'Captain', 'Hero'];
@@ -142,7 +151,9 @@ Add Me</pre>
 Add Me</pre>
         </div>
       </div>
-      <div id="methods"><h4>Methods</h4>
+
+      <!-- ARRAY METHODS -->
+      <div id="amethods"><h4>Array Methods</h4>
         <div>
           <a id="name">pop()</a>
           <a class="description">Remove last element from an array</a>
@@ -270,6 +281,41 @@ str.slice(-2);    // ned
 str.slice(2,5);   // and
 str.slice(3,-1);  // ndone
 str.slice(0);     // Abandoned</pre>
+        </div>
+      </div>
+
+  <!-- ARROW FUNCTIONS -->
+      <div id="amethods"><h4>Arrow Functions</h4>
+        <h5>Arrow functions are a shorthand way to write functions. Using them you can remove {} as well as return in several cases</h5>
+        <div>
+          <a class="description">Basic Arrow Function</a>
+          <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse61" aria-expanded="true" aria-controls="collapse61"><span>Example</span></a>
+          <pre id="collapse61" class="collapse">
+// ORIGINAL
+function peanut(num) {
+  return num*3;
+}
+
+// ARROW 
+let peanut = num => num*3;</pre>
+        </div>
+        <div>
+          <!-- <a id="name">push()</a> -->
+          <a class="description">Arrow Function with shot hand if statement</a>
+          <a class= "example" aria-current="true" data-mdb-toggle="collapse" href="#collapse62" aria-expanded="true" aria-controls="collapse62"><span>Example</span></a>
+          <pre id="collapse62" class="collapse">
+// ORIGINAL
+function butter(n1, n2) {
+  if (n1 === n2) {
+    return 'Delicous';
+  } else {
+    return 'Gross!'
+  }
+}
+
+// ARROW
+let butter = (n1, n2) => n1 === n2 ? 'Delicous' : 'Gross'
+          </pre>
         </div>
       </div>
     </div>
